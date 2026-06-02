@@ -200,7 +200,6 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvpplibrary \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \

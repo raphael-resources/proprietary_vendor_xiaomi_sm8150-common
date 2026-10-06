@@ -369,6 +369,61 @@
         <ImageEncoding quality="70" />
         <ImageDecoding memCap="20000000" />
 
+    <EncoderProfile quality="highspeed1080p" fileFormat="mp4" duration="30">
+      <Video codec="h264"
+             bitRate="42000000"
+             width="1920"
+             height="1080"
+             frameRate="120" />
+
+      <!-- audio setting is ignored -->
+      <Audio codec="aac"
+             bitRate="96000"
+             sampleRate="48000"
+             channels="1" />
+    </EncoderProfile>
+
+    <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
+      <Video codec="h264"
+             bitRate="24000000"
+             width="1280"
+             height="720"
+             frameRate="240" />
+
+      <!-- audio setting is ignored -->
+      <Audio codec="aac"
+             bitRate="96000"
+             sampleRate="48000"
+             channels="1" />
+    </EncoderProfile>
+
+    <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
+      <Video codec="h264"
+             bitRate="24000000"
+             width="1280"
+             height="720"
+             frameRate="240" />
+
+      <!-- audio setting is ignored -->
+      <Audio codec="aac"
+             bitRate="96000"
+             sampleRate="48000"
+             channels="1" />
+    </EncoderProfile>
+
+    <EncoderProfile quality="highspeed480p" fileFormat="mp4" duration="30">
+      <Video codec="h264"
+             bitRate="12000000"
+             width="640"
+             height="480"
+             frameRate="240" />
+
+      <Audio codec="aac"
+             bitRate="156000"
+             sampleRate="48000"
+             channels="2" />
+    </EncoderProfile>
+
     </CamcorderProfiles>
     <!-- Front Camera -->
     <CamcorderProfiles cameraId="1">
@@ -2191,7 +2246,7 @@
         minFrameHeight="144" maxFrameHeight="2160"
         minFrameRate="15" maxFrameRate="30"
         maxHFRFrameWidth="1920" maxHFRFrameHeight="1080"
-        maxHFRMode="120"  />
+        maxHFRMode="240"  />
 
     <VideoEncoderCap name="h263" enabled="true"
         minBitRate="64000" maxBitRate="2000000"

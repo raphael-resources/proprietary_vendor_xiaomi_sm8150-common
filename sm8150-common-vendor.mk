@@ -145,11 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libcamera_algoup_jni.xiaomi \
-    libcamera_mianode_jni.xiaomi \
-    libgui_shim_miuicamera \
-    libmicampostproc_client \
-    vendor.xiaomi.hardware.campostproc@1.0 \
     btaudio_offload_if \
     eglSubDriverAndroid \
     libEGL_adreno \
